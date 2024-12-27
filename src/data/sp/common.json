@@ -1,0 +1,16 @@
+{
+  "header": {
+    "home": "Inicio",
+    "play": "Jugar",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "register": "Registrarse"
+  },
+  "languages": {
+    "en": "Inglés",
+    "hi": "Hindi",
+    "ba": "Bengalí",
+    "sp": "Español"
+  }
+}

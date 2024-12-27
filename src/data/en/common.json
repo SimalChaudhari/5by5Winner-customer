@@ -1,0 +1,16 @@
+{
+  "header": {
+    "home": "Home",
+    "play": "Play",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register"
+  },
+  "languages": {
+    "en": "English",
+    "hi": "Hindi",
+    "ba": "Bangla",
+    "sp": "Spanish"
+  }
+}

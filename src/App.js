@@ -18,7 +18,7 @@ import ProfileSetting from "./pages/auth/ProfileSetting";
 function App() {
   return (
     <Layout>
-    <LanguageLogger />
+      <LanguageLogger />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/play" element={<Play />} />

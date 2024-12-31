@@ -26,7 +26,7 @@ function TrustSection() {
   ];
 
   return (
-    <section className="text-white py-16 bg-[#2b0063]">
+    <section className="text-white py-16 bg-black">
       <div className="container mx-auto px-6">
         {/* Section Heading */}
         <h2 className="text-4xl font-bold text-center mb-12">

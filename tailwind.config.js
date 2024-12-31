@@ -9,10 +9,14 @@ module.exports = {
       },
       colors: {
         customPurple: {
-          light: "#A855F7", 
+          light: "#A855F7",
           DEFAULT: "#580e7a",
           dark: "#5B21B6",
           back: "#1f044a",
+        },
+        purple: {
+          700: '#9333ea',
+          400: '#a78bfa', // Ensure this exists
         },
         skyBlue: "#7fffffff",
         customindigo: "#141245",

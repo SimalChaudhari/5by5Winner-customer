@@ -27,7 +27,7 @@ const TermsAndConditions = () => {
       </div>
 
       {/* Main Content */}
-      <div className="w-full max-w-3xl bg-black bg-opacity-90 rounded-lg shadow-lg p-10 z-10">
+      <div className="w-full max-w-3xl border border-purple-700 bg-opacity-90 rounded-lg shadow-lg p-10 z-10">
         <h2 className="text-3xl font-bold text-center text-purple-400 mb-8">
           Terms and Conditions
         </h2>
@@ -104,8 +104,8 @@ const TermsAndConditions = () => {
             onClick={handleAgree}
             className={`w-full py-3 font-bold rounded-full text-black transition-all duration-200 ${
               isChecked
-                ? "bg-green-500 hover:bg-green-600"
-                : "bg-gray-500 cursor-not-allowed"
+                ? "bg-purple-700 hover:bg-purple-400"
+                : "bg-purple-700 cursor-not-allowed"
             }`}
             disabled={!isChecked}
           >

@@ -6,12 +6,15 @@
 /* Global CSS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body{
+body {
   font-family: "Inter", serif;
 }
+
 :root {
-  --background-gradient: linear-gradient(135deg, #1e004e, #1a1a1a, #1e004e, #1e004e, #1e004e);
+  --background-gradient: #000000;
+  /* Solid black background */
   --text-color: #ffffff;
+  /* White text color */
   --hover-color: #5a5a5a;
   --border-color: #777777;
   --purple-glow: radial-gradient(circle, rgba(186, 104, 200, 0.8), rgba(103, 58, 183, 0.4), rgba(33, 33, 33, 0.1));
@@ -23,13 +26,19 @@ body{
   animation: gradientAnimation 6s ease infinite;
 }
 
+.border-auth {
+  border: 1px solid #9333ea
+}
+
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -48,7 +57,8 @@ body{
 }
 
 .dot {
-  width: 40px; /* Adjust dot size */
+  width: 40px;
+  /* Adjust dot size */
   height: 40px;
   border-radius: 50%;
   background: var(--purple-glow);
@@ -67,15 +77,18 @@ body{
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-15px);
   }
 }
 
-.react-datepicker-wrapper{
+.react-datepicker-wrapper {
   width: 100% !important;
 }
 
@@ -103,23 +116,26 @@ body{
   opacity: 0.85;
 }
 
-.how-work-card__step, .recent-winner-card {
+.how-work-card__step,
+.recent-winner-card {
   box-shadow: 0 0 10px #580e7a8c;
 }
+
 .text--base {
   color: #fff !important;
 }
+
 .text-shadow--base {
   text-shadow: 0 0 5px #fff;
 }
+
 .how-work-card__step {
   width: 120px;
   height: 120px;
   background-color: #580e7a8c;
   border: 2px solid #580e7a8c;
   font-size: 2.25rem;
-  display: inline-flex
-;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -136,6 +152,7 @@ body{
 .how-work-card__step::before {
   background-color: #fff;
 }
+
 .how-work-card__step::before {
   position: absolute;
   content: '';
@@ -183,6 +200,10 @@ body{
 
 @media (max-width: 1024px) {
   .how-work-item::after {
-      display: none;
+    display: none;
   }
+}
+
+.s9gUrf-YoZ4jf {
+  display: none !important;
 }

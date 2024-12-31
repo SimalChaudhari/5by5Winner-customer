@@ -11,3 +11,7 @@ export { default as BorderComponent } from './BorderComponent.js';
 
 
 export { default as ContactForm } from './ContactComponent/ContactForm.js';
+
+
+export { default as GoogleLoginComponent } from './Auth/GoogleLoginComponent.js';
+export { default as LinkedinLogin } from './Auth/LinkedinLoginComponent.js';

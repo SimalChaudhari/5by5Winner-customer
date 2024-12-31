@@ -48,7 +48,7 @@ const Step1 = ({ onNext }) => {
                 name={field}
                 placeholder={`${field.replace(/([A-Z])/g, " $1")} *`}
                 {...formik.getFieldProps(field)}
-                className="w-full p-2 bg-gray-800 text-white rounded focus:ring focus:ring-purple-500"
+                className="w-full p-2 border border-purple-700 bg-gray-800 text-white rounded focus:ring focus:ring-purple-500"
               />
               {formik.touched[field] && formik.errors[field] && (
                 <div className="text-red-500 text-sm">{formik.errors[field]}</div>
@@ -59,14 +59,14 @@ const Step1 = ({ onNext }) => {
 
         {/* Date of Birth Picker */}
         <div>
-          <label className="block text-gray-300 mb-2">Date of Birth *</label>
+          {/* <label className="block text-gray-300 mb-2">Date of Birth *</label> */}
           <DatePicker
             selected={dateOfBirth}
             onChange={(date) => setDateOfBirth(date)}
             dateFormat="yyyy-MM-dd"
             maxDate={new Date()}
             placeholderText="Select Date of Birth"
-            className="w-full p-2 bg-gray-800 text-white rounded focus:ring focus:ring-purple-500"
+            className="w-full p-2 border border-purple-700 bg-gray-800 text-white rounded focus:ring focus:ring-purple-500"
           />
           {!dateOfBirth && (
             <div className="text-red-500 text-sm">Date of Birth is required</div>

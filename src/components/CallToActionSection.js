@@ -4,7 +4,7 @@ function CallToActionSection() {
   return (
     <section className="text-white py-24 md:text-center bg-customPurple-back"
       style={{
-        backgroundImage: `url('./images/backImg3.png')`,
+        backgroundImage: `url('./images/backImg.png')`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',

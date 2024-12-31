@@ -35,7 +35,7 @@ const EmailConfirmation = () => {
       </div>
 
       {/* Email Confirmation Section */}
-      <div className="w-full max-w-md bg-black bg-opacity-80 rounded-lg shadow-lg p-8 z-10">
+      <div className="w-full max-w-md border border-purple-700 bg-opacity-80 rounded-lg shadow-lg p-8 z-10">
         <h2 className="text-2xl font-bold text-center text-purple-400 mb-6">
           Confirm Your Email
         </h2>

@@ -164,7 +164,7 @@ const Login = () => {
                         {/* Social Login Buttons */}
                         <div className="space-y-4 mb-8">
 
-                            <button className="w-full py-3 text-white rounded-full hover:bg-skyBlue hover:text-customindigo flex justify-center items-center space-x-4 border-[1px] border-skyBlue"
+                            <button className="w-full py-3 border border-purple-700 hover:bg-purple-500 text-white rounded-lg flex items-center justify-center space-x-4"
                                 onClick={() => login()}
                             >
                                 <img
@@ -183,7 +183,7 @@ const Login = () => {
                                     callback={handleFacebookResponse}
                                     render={(renderProps) => (
                                         <button
-                                            className="w-full py-3 text-white rounded-full hover:bg-skyBlue hover:text-customindigo flex justify-center items-center space-x-4 border-[1px] border-skyBlue"
+                                            className="w-full py-3 border border-purple-700 hover:bg-blue-500 text-white rounded-lg flex items-center justify-center space-x-4"
                                             onClick={renderProps.onClick}
                                         >
                                             <img
@@ -201,7 +201,7 @@ const Login = () => {
 
 
                             <button
-                                className="w-full py-3 text-white rounded-full hover:bg-skyBlue hover:text-customindigo flex justify-center items-center space-x-4 border-[1px] border-skyBlue"
+                                className="w-full py-3 border border-purple-700 hover:bg-indigo-500 text-white rounded-lg flex items-center justify-center space-x-4"
                                 onClick={handlelinkedInLogin}
                             >
                                 <img
